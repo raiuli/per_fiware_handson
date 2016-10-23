@@ -30,7 +30,6 @@ public class HandsOnQueryData {
 		 try {
 			 response=httpHandler.sendrequest(queyUrl,  request);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		 System.out.println("Receivied Response<------------- = "+response); 

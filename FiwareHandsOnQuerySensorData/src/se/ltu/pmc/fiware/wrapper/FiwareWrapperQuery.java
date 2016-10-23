@@ -1,6 +1,6 @@
 package se.ltu.pmc.fiware.wrapper;
 
-import java.io.IOException;
+
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
@@ -21,7 +21,6 @@ public class FiwareWrapperQuery {
 			try {
 				type = new  URI("sensor");
 			} catch (URISyntaxException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 			entityId.setType(type);

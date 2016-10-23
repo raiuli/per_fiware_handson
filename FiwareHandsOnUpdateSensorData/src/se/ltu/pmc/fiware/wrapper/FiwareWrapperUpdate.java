@@ -8,7 +8,7 @@ import java.util.List;
 import eu.neclab.iotplatform.ngsi.api.datamodel.ContextAttribute;
 import eu.neclab.iotplatform.ngsi.api.datamodel.ContextElement;
 import eu.neclab.iotplatform.ngsi.api.datamodel.ContextMetadata;
-import eu.neclab.iotplatform.ngsi.api.datamodel.ContextRegistrationAttribute;
+
 import eu.neclab.iotplatform.ngsi.api.datamodel.EntityId;
 import eu.neclab.iotplatform.ngsi.api.datamodel.UpdateActionType;
 import eu.neclab.iotplatform.ngsi.api.datamodel.UpdateContextRequest;

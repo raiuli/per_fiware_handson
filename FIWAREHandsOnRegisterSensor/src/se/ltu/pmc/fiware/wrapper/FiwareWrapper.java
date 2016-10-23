@@ -1,6 +1,6 @@
 package se.ltu.pmc.fiware.wrapper;
 
-import java.io.IOException;
+
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
@@ -10,14 +10,11 @@ import javax.xml.datatype.DatatypeConfigurationException;
 import javax.xml.datatype.DatatypeFactory;
 import javax.xml.datatype.Duration;
 
-import eu.neclab.iotplatform.ngsi.api.datamodel.ContextAttribute;
-import eu.neclab.iotplatform.ngsi.api.datamodel.ContextElement;
 import eu.neclab.iotplatform.ngsi.api.datamodel.ContextMetadata;
 import eu.neclab.iotplatform.ngsi.api.datamodel.ContextRegistration;
 import eu.neclab.iotplatform.ngsi.api.datamodel.ContextRegistrationAttribute;
 import eu.neclab.iotplatform.ngsi.api.datamodel.EntityId;
 import eu.neclab.iotplatform.ngsi.api.datamodel.RegisterContextRequest;
-import eu.neclab.iotplatform.ngsi.api.datamodel.UpdateContextRequest;
 
 public class FiwareWrapper {
  public String creatRegisterSensorRequest(List<String> EntityNames,List<String> Attributes,String SensorUrl){
@@ -91,7 +88,7 @@ public class FiwareWrapper {
 	try {
 		duration = DatatypeFactory.newInstance().newDuration("P1M");
 	} catch (DatatypeConfigurationException e) {
-		// TODO Auto-generated catch block
+		
 		e.printStackTrace();
 	}
 	//Creating RegisterContextRequest
