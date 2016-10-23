@@ -12,7 +12,7 @@ import se.ltu.pmc.fiware.wrapper.HttpHandler;
 public class HandsOnUpdateSensorData {
 	public static void main(String[] args) {
 		// The sensor values that will be updated 
-		String entityName = "EnviormentalSensor_S0";
+		String entityName = "TempeSensor_S0";
 		String attribute = "NH3";
 		String value = "279.0";
 		

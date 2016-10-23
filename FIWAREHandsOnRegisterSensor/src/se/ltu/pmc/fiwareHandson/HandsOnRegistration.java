@@ -17,7 +17,7 @@ public class HandsOnRegistration {
 		
 		//The  entity name EnviormentalSensor_S0
 		List<String> entityNames = new ArrayList<>();
-		entityNames.add("EnviormentalSensor_S0");
+		entityNames.add("TempeSensor_S0");
 		//The Attribute  named NH3
 		List<String> attributes = new ArrayList<>();
 		attributes.add("NH3");

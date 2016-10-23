@@ -13,7 +13,7 @@ public class HandsOnQueryData {
 		
 		// Query for Entity  "EnviormentalSensor_S0" and attribute "NH3"
 		List<String> entityNames = new ArrayList<>();
-		entityNames.add("EnviormentalSensor_S0");
+		entityNames.add("TempeSensor_S0");
 		List<String> attributes = new ArrayList<>();
 		attributes.add("NH3");
 		
